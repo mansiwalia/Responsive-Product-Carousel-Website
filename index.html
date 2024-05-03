@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="Rstyle.css">
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                <i class="ri-handbag-fill"></i> BagNest
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Shop<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Category Page <i class="ri-arrow-drop-right-line"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-suitcase-line"></i>TrollyBag
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-wallet-3-line"></i> Wallet
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-handbag-line"></i> HandBag
+                                 </a>
+                              </li>
+
+                              <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i> ClutchBag
+                                </a>
+                             </li>
+
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                    <i class="ri-shopping-bag-fill"></i>OfficeBag
+                                </a>
+                             </li>
+                           </ul>
+                        </li>
+                         <!--=============== DROPDOWN submenu end here ===============-->
+                     </ul>
+                  </li>
+                  
+                  <li><a href="#" class="nav__link">Products</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Pages <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              About Us
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                               Contact
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                             Shipping & Return
+                           </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown__link">
+                               Terms & Condition
+                            </a>
+                         </li>
+                     </ul>
+                  </li>
+                  <li><a href="#" class="nav__link">Company</a></li>
+                  <li><a href="#" class="nav__link">Blog</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+
+      <!--======== SLIDER STARTS HERE =======-->
+
+<div class="slide-container">
+    <div class="slides">
+        <img src="images/Image1.jpg" alt="" class="active">
+        <img src="images/Image2.jpg" alt="" >
+        <img src="images/Image3.jpg" alt="" >
+        <img src="images/Image4.jpg" alt="" >
+        <img src="images/Image5.jpg" alt="" >
+    </div>      
+    
+    <div class="buttons">
+        <span class="next"><i class="ri-arrow-right-s-line"></i></span>
+         <span class="previous"><i class="ri-arrow-left-s-line"></i></span>
+    </div>
+ </div>
+
+ <!--======== SLIDER End HERE =======--> 
+
+      <!--=============== MAIN JS ===============-->
+      <script src="Rscript.js"></script>
+   </body>
+</html>
